@@ -1,14 +1,16 @@
 import React from 'react';
-import { Sidebar, Footer } from './components';
+import { SidebarNav, Footer } from './components';
 import { Outlet } from 'react-router-dom';
 
 function Routes() {
     return (
-        <>
-            <Sidebar />
-            <Outlet />
-            <Footer />
-        </>
+        <div className='flex h-screen'>
+            <SidebarNav />
+            <div className='flex flex-1 flex-col'>
+                <Outlet />
+                <Footer />
+            </div>
+        </div>
     )
 }
 export default Routes;
