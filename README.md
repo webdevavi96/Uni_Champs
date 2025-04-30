@@ -14,3 +14,6 @@ If you are developing a production application, we recommend using TypeScript wi
 =======
 # Uni_Champs
 >>>>>>> 28929b3bb6cb83aff6604da99cb399022c4f77dd
+>>>>>>
+
+This project is currently hold for future developement due to lack of time...
